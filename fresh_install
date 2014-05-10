@@ -1,0 +1,69 @@
+#!/bin/bash
+
+apt-get update
+apt-get upgrade
+
+# Ubuntu stuff
+add-apt-repository ppa:ubuntu-sdk-team/ppa
+apt-get dist-upgrade
+
+apt-get install build-essential
+apt-get install ubuntu-sdk
+
+apt-get install linux-headers-$(uname -r) 
+
+# Other tools and libraries I know I'll need
+apt-get install curl xsel sqlite tree
+
+# Source control
+apt-get install mercurial bzr git subversion
+
+# Vim
+apt-get install vim
+apt-get install vim-gnome
+
+# Virtualbox
+apt-get install virtualbox
+
+# LAMP
+apt-get install apache2
+apt-get install apache2-bin
+
+# Python stuff
+apt-get install libmysqlclient-dev
+apt-get install libbz2-dev libgdbm-dev liblzma-dev libreadline6-dev
+apt-get install libpq-dev
+apt-get install libxml2-dev libxslt1-dev python-dev
+apt-get install python python-tk idle python-pmw python-imaging
+apt-get install libssl-dev openssl
+apt-get install sqlite3 libsqlite3-dev
+apt-get install libncurses5-dev libncurses5
+apt-get install python-setuptools
+apt-get install python-pip virtualenv virtualenvwrapper
+apt-get install python3-pip
+apt-get install bpython
+apt-get install libsdl1.2-dev
+
+# Haskell
+apt-get install haskell-platform
+
+# Ruby
+\curl -sSL https://get.rvm.io | bash -s stable
+apt-get install jekyll
+
+
+# Java!
+apt-get install openjdk-7-jre openjdk-7-jdk eclipse scala
+
+# Mount my android device
+add-apt-repository ppa:langdalepl/gvfs-mtp
+apt-get install gvfs
+
+# Other apps
+apt-get install inkscape blender
+
+# mp3
+apt-get install gstreamer1.0-plugins-ugly
+
+reboot
+
