@@ -14,6 +14,10 @@ apt-get install linux-headers-$(uname -r)
 
 # Other tools and libraries I know I'll need
 apt-get install curl xsel sqlite tree
+apt-get install unetbootin gparted
+
+apt-get install postgresql-client-common # this first
+apt-get install postgresql-client postgresql postgresql-contrib pgadmin3
 
 # Source control
 apt-get install mercurial bzr git subversion
@@ -48,9 +52,13 @@ apt-get install libsdl1.2-dev
 apt-get install haskell-platform
 
 # Ruby
+apt-get install ruby-dev
 \curl -sSL https://get.rvm.io | bash -s stable
 apt-get install jekyll
 
+# Node stuff
+# TODO add node
+npm install -g grunt-cli
 
 # Java!
 apt-get install openjdk-7-jre openjdk-7-jdk eclipse scala
@@ -60,8 +68,7 @@ add-apt-repository ppa:langdalepl/gvfs-mtp
 apt-get install gvfs
 
 # Other apps
-apt-get install inkscape blender
-
+apt-get install inkscape blender aseprite audacity
 # mp3
 apt-get install gstreamer1.0-plugins-ugly
 
