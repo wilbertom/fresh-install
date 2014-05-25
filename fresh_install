@@ -74,6 +74,9 @@ apt-get install jekyll
 # Node stuff
 # TODO add node
 npm install -g grunt-cli
+npm install -g browserify
+npm install -g topojson
+npm install -g less
 
 # Java!
 apt-get install openjdk-7-jre openjdk-7-jdk eclipse scala
@@ -88,7 +91,11 @@ apt-get install sublime-text-installer
 # mp3
 apt-get install gstreamer1.0-plugins-ugly
 
+apt-get install qgis python-qgis qgis-plugin-grass
+
 chsh -s `which zsh`
 
 reboot
+
+
 
