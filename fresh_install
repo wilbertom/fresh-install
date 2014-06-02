@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 add-apt-repository ppa:langdalepl/gvfs-mtp
 add-apt-repository ppa:ubuntu-sdk-team/ppa
 add-apt-repository ppa:webupd8team/sublime-text-3
@@ -17,7 +16,7 @@ apt-get install zsh
 # Ubuntu stuff
 apt-get dist-upgrade
 
-apt-get install build-essential
+apt-get install build-essential autoconf
 apt-get install ubuntu-sdk
 
 apt-get install linux-headers-$(uname -r) 
@@ -63,6 +62,12 @@ apt-get install libsdl1.2-dev libsmpeg-dev libasound2-doc libglib2.0-doc # for p
 apt-get install libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev # pygame
 apt-get install libportmidi-dev libavformat-dev libswscale-dev libv4l-dev # pygame
 
+# Mono
+apt-get install libglib3.0-cil-dev libglib3.0-cil
+apt-get install mono-complete
+apt-get install monodevelop glade
+# apt-get install libtool libgnome2.0-cil-dev libgnome2.24-cil gnome-sharp2 libmono-addins-cil-dev libmono-addins-gui-cil-dev libvala-0.22-0 libvala-0.22-dev libvala-0.22-0-dbg libglib2.0
+
 # Haskell
 apt-get install haskell-platform
 
@@ -77,6 +82,7 @@ npm install -g grunt-cli
 npm install -g browserify
 npm install -g topojson
 npm install -g less
+npm install -g watch-less
 
 # Java!
 apt-get install openjdk-7-jre openjdk-7-jdk eclipse scala
@@ -93,9 +99,12 @@ apt-get install gstreamer1.0-plugins-ugly
 
 apt-get install qgis python-qgis qgis-plugin-grass
 
-chsh -s `which zsh`
+apt-get install python-sphinx
+apt-get install texlive-latex-base
+apt-get install texlive-latex-base
+apt-get install tor
+
+#chsh -s `which zsh`
 
 reboot
-
-
 
