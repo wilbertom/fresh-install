@@ -1,0 +1,42 @@
+#!/bin/bash
+
+add-apt-repository ppa:langdalepl/gvfs-mtp
+add-apt-repository ppa:ubuntu-sdk-team/ppa
+add-apt-repository ppa:webupd8team/sublime-text-3
+
+apt-get install zsh 
+
+# Ubuntu stuff
+apt-get dist-upgrade
+apt-get install ubuntu-sdk
+
+# Other tools and libraries I know I'll need
+apt-get install unetbootin gparted
+
+# Virtualbox
+apt-get install virtualbox
+
+# LAMP
+apt-get install apache2
+apt-get install apache2-bin
+
+# mono possibly needed
+# apt-get install libtool libgnome2.0-cil-dev libgnome2.24-cil gnome-sharp2 libmono-addins-cil-dev libmono-addins-gui-cil-dev libvala-0.22-0 libvala-0.22-dev libvala-0.22-0-dbg libglib2.0
+
+# Mount my android device
+apt-get install gvfs
+
+# Other apps
+apt-get install inkscape blender aseprite audacity
+apt-get install sublime-text-installer
+
+# mp3
+apt-get install gstreamer1.0-plugins-ugly
+
+apt-get install qgis python-qgis qgis-plugin-grass
+
+apt-get install tor
+
+#chsh -s `which zsh`
+
+

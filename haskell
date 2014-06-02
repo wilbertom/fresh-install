@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Haskell
+apt-get install haskell-platform
+

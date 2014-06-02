@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Python stuff
+echo "Remember to install databases that you are planning to use"
+
+apt-get install libbz2-dev libgdbm-dev liblzma-dev libreadline6-dev
+apt-get install libxml2-dev libxslt1-dev python-dev
+apt-get install python python-tk idle python-pmw python-imaging
+
+apt-get install python-setuptools
+apt-get install python-pip virtualenv virtualenvwrapper
+apt-get install python3-pip
+apt-get install ipython
+
+apt-get install python-sphinx
+apt-get install texlive-latex-base
+
+# apt-get install bpython
+
+# apt-get install libsdl1.2-dev libsmpeg-dev libasound2-doc libglib2.0-doc # for pygame
+# apt-get install libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev # pygame
+# apt-get install libportmidi-dev libavformat-dev libswscale-dev libv4l-dev # pygame
+
+
+

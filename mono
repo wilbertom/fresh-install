@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Mono
+apt-get install libglib3.0-cil-dev libglib3.0-cil
+apt-get install mono-complete
+apt-get install monodevelop glade
+
+

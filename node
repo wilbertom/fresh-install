@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Node stuff
+apt-get install nodejs
+npm install -g grunt-cli
+npm install -g browserify
+npm install -g topojson
+npm install -g less
+npm install -g watch-less
+
+
+
