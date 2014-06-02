@@ -1,8 +1,10 @@
-common:
-    sudo ./common
+common: 
+	sudo ./common
 
-mono:
-    sudo ./mono
+mono: 
+	sudo ./mono
 
+python:
+	sudo ./python
 
 
