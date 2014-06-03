@@ -8,7 +8,7 @@ apt-get install libxml2-dev libxslt1-dev python-dev
 apt-get install python python-tk idle python-pmw python-imaging
 
 apt-get install python-setuptools
-apt-get install python-pip virtualenv virtualenvwrapper
+apt-get install python-pip python-virtualenv virtualenvwrapper
 apt-get install python3-pip
 apt-get install ipython
 
