@@ -4,6 +4,7 @@ apt-get update
 apt-get upgrade
 
 apt-get install build-essential autoconf
+sudo apt-get install cmake
 apt-get install linux-headers-$(uname -r)
 
 apt-get install curl xsel tree
@@ -15,6 +16,7 @@ apt-get install mercurial bzr git subversion
 apt-get install vim
 apt-get install vim-gnome
 
+apt-get install libffi-dev
 apt-get install libssl-dev openssl
 apt-get install libncurses5-dev libncurses5
 
